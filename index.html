@@ -127,7 +127,7 @@
                       <p class="small text-muted"><span class="text-decoration-line-through">$300</span> $200 USD</p>
                     </div>
                   </div>
-                  <!-- PRODUCT-->
+                  <!-- PRODUCT
                   <div class="col-lg-3 col-md-4 col-sm-6 opacity-25">
                     <div class="product text-center">
                       <div class="mb-3 position-relative">
@@ -136,17 +136,17 @@
                       <h6>Cyan cotton t-shirt</h6>
                       <p class="small text-muted">$200 USD</p>
                     </div>
-                  </div>
-                  <!-- PRODUCT-->
+                  </div>-->
+                  <!-- PRODUCT
                   <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product text-center">
                       <div class="mb-3 position-relative">
                         <div class="badge rounded-pill text-white bg-dark">NEW</div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="img/product-4.jpg" alt="..."></a>
                       </div>
-                      <h6> <a class="reset-anchor" href="detail.html">Timex Unisex Originals</a></h6>
+                      <h6> <a class="reset-anchor" href="detail.html">Other logo</a></h6>
                       <p class="small text-muted">$200 USD</p>
                     </div>
-                  </div>
+                  </div>-->
                   <!-- PRODUCT-->
                   <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product text-center">
@@ -188,14 +188,15 @@
                     </div>
                   </div>
 
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-5">
+          <!-- <div class="d-grid gap-2 d-sm-flex justify-content-center my-5">
             <a href="shop.html"><button type="button" class="btn btn-secondary text-dark btn-lg py-3 px-5">Explore more brands</button></a>
-          </div>
+          </div>-->
 
           </div>
         </section>
-        <!-- SERVICES-->
-        <section class="my-5 py-5 bg-light">
+      
+      <!-- SERVICES-->
+      <section class="my-5 py-5 bg-light">
           <div class="container">
             <div class="row text-center gy-3">
               <div class="col-lg-4">
@@ -208,6 +209,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="col-lg-4">
                 <div class="d-inline-block">
                   <div class="d-flex align-items-end">
@@ -218,6 +220,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="col-lg-4">
                 <div class="d-inline-block">
                   <div class="d-flex align-items-end">
@@ -230,18 +233,55 @@
               </div>
             </div>
           </div>
-        </section>
-        <!-- NEWSLETTER-->
-        <section class="py-5">
-          <div class="container p-0 text-center aliggn-middle">
-            <div class="row gy-3">
-              <div class="col-lg-12">
-<iframe data-tally-src="https://tally.so/embed/npKoxP?transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="157" frameborder="0" marginheight="0" marginwidth="0" title="Let´s be friends"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+      </section>
 
+
+      <section class="my-5 py-5">
+          <div class="container">
+            <div class="d-flex justify-content-center">
+
+        <div class="col-12 col-md-8 col-lg-6 mt-5">
+
+                <h3 class="display-6 fw-bold text-body-emphasis">Let´s be friends</h3>
+                <p class="lead mb-4">Subscribe to our newsletter and get the best offers from fresh brands </p>
+
+              <div id="form">
+                      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfLq3QQnmQcxzL0v31jnrODgwV9UVOn4k1A0jqtk-OFcB4Qzw/formResponse" method="post" target="hiddenConfirm" onsubmit="formSubmit()">
+
+                          <div class="form-floating mb-2">
+                              <input type="email" class="form-control border-secondary rounded" name="entry.156819877" id="floatingInput" placeholder="Best email" required>
+                              <label class="text-grey" for="entry.156819877 floatingInput email">Your email</label>
+                          </div>
+
+                          <button type="submit" class="button-secondary btn-lg px-5 mt-1 btn-dark">Join in</button>
+
+                      </form>
               </div>
-            </div>
-          </div>
-        </section>
+        </div>
+        </div>
+        <iframe name="hiddenConfirm" style="display: none;"></iframe>
+
+        <div class="d-flex justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+              <!-- Submitted message confirmation -->
+              <div id="completion-msg" class="text-center align-items-center" style="display: none; transition: all .1s ease;">
+                
+                <p class="text-opacity-75 align-items-center"><i class="bi bi-check-circle text-success me-1 h4"></i>Thanks for your interest. You will receive news soon</p>
+              </div>
+
+                  <!-- Script to hide form after submitted -->
+                  <script type="text/javascript">
+                      var submitted=false
+                      function formSubmit(){
+                          document.getElementById("form").style.display = "none";  // make form invisible
+                          document.getElementById("completion-msg").style.display = "block"; // Optional if you want to give a completion feedback!
+                      }
+                  </script>
+           </div>
+        </div>
+      </div>
+    </section>
+
       </div>
 
       <footer class="bg-dark text-white">
